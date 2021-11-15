@@ -1,0 +1,55 @@
+$height: 100vh;
+
+//color
+$text-white-color: #fff;
+$tomato: #ea4913;
+$bright-orange-two: #ff5500;
+$black-color: #110e03;
+$bg-black-color: #111111;
+$bg-blue: #0565bb;
+$text-color-yellow: #fcd32a;
+$bg-yellow: #fccb05;
+$text-blank: #a9a9a9;
+
+// font-size
+$font-size12: 12px;
+$font-size13: 13px;
+$font-size14: 14px;
+$font-size15: 15px;
+$font-size16: 16px;
+$font-size17: 17px;
+$font-size18: 18px;
+$font-size55: 55px;
+
+//font-weight
+$font-weight300: 300;
+$font-weight400: 400;
+$font-weight500: 500;
+$font-weight600: 600;
+$font-weight700: 700;
+$font-weight800: 800;
+
+//font-family
+$font-eng: Montserrat;
+$font-korea: "Noto Sans KR", sans-serif;
+
+@mixin mobile-small {
+  @media (min-width: 0) and (max-width: 424px) {
+    @content;
+  }
+}
+@mixin tablet-mobile {
+  @media (max-width: 1040px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    @content;
+  }
+}
+@mixin desktop-medium {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}

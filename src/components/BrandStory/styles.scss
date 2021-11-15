@@ -1,0 +1,122 @@
+@import "../../assets/style-gl.scss";
+
+.container_brand {
+  background-color: $bg-blue;
+  height: 620px;
+  .brand_header {
+    text-align: center;
+    margin: 0 auto;
+    width: 682px;
+    .brand_title {
+      padding-top: 100px;
+      color: $text-color-yellow;
+      font-family: $font-eng;
+      font-weight: $font-weight700;
+      text-transform: uppercase;
+    }
+    .brand_desc {
+      color: $text-color-yellow;
+      font-size: $font-size15;
+      font-weight: $font-weight400;
+      font-family: $font-korea;
+    }
+  }
+  .brand_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    // &::before {
+    //   content: "";
+    //   position: absolute;
+    //   top: 52px;
+    //   left: 272px;
+    //   height: 20px;
+    //   width: 60%;
+    //   background-color: $black-color;
+    //   z-index: 1;
+    // }
+
+    .product_content-img {
+      width: 30%;
+      height: 418px;
+      object-fit: contain;
+      z-index: 1;
+    }
+
+    .brand_content-table {
+      width: 400px;
+      height: 278px;
+      border: 3px solid $black-color;
+      background-color: $text-white-color;
+      border-left-width: 0;
+      z-index: 1;
+
+      .brand_content-table-title {
+        margin: 10px 20px;
+        text-transform: uppercase;
+      }
+      .brand_content-table-wrap {
+        margin: 10px 20px;
+      }
+      .brand_content-table-desc {
+        text-align: center;
+        font-size: $font-size12;
+        font-weight: $font-weight400;
+        font-family: $font-korea;
+      }
+      .product_btn {
+        margin: 10px 20px;
+      }
+    }
+  }
+  .icon-table {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -15px;
+    left: 200px;
+  }
+  .icon-book-g {
+    width: 140px;
+    height: 250px;
+    position: absolute;
+    top: 60px;
+    left: 2px;
+  }
+  .icon-book {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    bottom: 115px;
+    left: 140px;
+  }
+  .icon-2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -150px;
+    right: 150px;
+  }
+  .icon-3 {
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    top: -120px;
+    right: 100px;
+  }
+  .icon-4 {
+    width: 150px;
+    height: 350px;
+    position: absolute;
+    bottom: 150px;
+    right: -50px;
+  }
+  .icon-5 {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    bottom: 100px;
+    right: -10px;
+  }
+}

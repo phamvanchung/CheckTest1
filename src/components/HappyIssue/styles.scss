@@ -1,0 +1,113 @@
+@import "../../assets/style-gl.scss";
+
+.container-happy {
+  background-color: $bg-yellow;
+  height: 800px;
+  position: relative;
+
+  .icon3 {
+    position: absolute;
+    width: 110px;
+    height: 100px;
+    top: 50px;
+    right: 80px;
+  }
+  .icon1 {
+    position: absolute;
+    width: 110px;
+    height: 100px;
+    top: 180px;
+    right: 80px;
+  }
+
+  .container-happy-header {
+    text-align: center;
+    margin: 0 auto;
+    width: 682px;
+    .container-happy-title {
+      padding-top: 100px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .container-happy-desc {
+      font-size: $font-size15;
+      font-family: $font-korea;
+    }
+    .product_btn {
+      margin: 40px auto;
+      background-color: $bg-yellow;
+    }
+  }
+  .content-happy {
+    margin-top: 100px;
+    .content-happy-list {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      position: relative;
+
+      .content-happy-item {
+        width: 20%;
+        height: 300px;
+        border: 2px solid $black-color;
+        background-color: $bright-orange-two;
+        text-align: center;
+        .content-happy-text {
+          font-family: $font-eng;
+          font-size: $font-size55;
+          font-weight: $font-weight800;
+          text-transform: uppercase;
+        }
+        .content-happy-img {
+          margin-top: 10px;
+          width: 80px;
+          height: 80px;
+          display: inline-block;
+        }
+      }
+      .content-happy-item1 {
+        width: 20%;
+        .content-happy-text1 {
+          padding: 6px 0;
+          font-size: $font-size18;
+          font-weight: $font-weight800;
+          color: $text-white-color;
+          text-align: center;
+          text-transform: uppercase;
+          background-color: $black-color;
+        }
+        .text2 {
+          background-color: $bright-orange-two;
+        }
+        .content-happy-img1 {
+          width: 100%;
+          height: 260px;
+        }
+      }
+
+      .icon2 {
+        border-radius: 40px;
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        bottom: -50px;
+        left: 180px;
+      }
+
+      .icon4 {
+        position: absolute;
+        width: 80px;
+        height: 40px;
+        top: -15px;
+        left: 280px;
+      }
+      .icon5 {
+        position: absolute;
+        width: 120px;
+        height: 90px;
+        bottom: -50px;
+        right: 220px;
+      }
+    }
+  }
+}
