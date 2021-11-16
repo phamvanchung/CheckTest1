@@ -30,11 +30,11 @@ function Header() {
       />
       <div className="topbar-menu-mobi-2">
         <ul className="menu-list-mobi">
-          <li className="header-item">INTRODUCTION</li>
-          <li className="header-item">SOLUTION</li>
-          <li className="header-item">RATE PLANT</li>
-          <li className="header-item ">LOGIN</li>
-          <li className="header-item">APPLY FOR FREE USE</li>
+          <li className="header-item-mobi">INTRODUCTION</li>
+          <li className="header-item-mobi">SOLUTION</li>
+          <li className="header-item-mobi">RATE PLANT</li>
+          <li className="header-item-mobi ">LOGIN</li>
+          <li className="header-item-mobi">APPLY FOR FREE USE</li>
         </ul>
       </div>
     </>

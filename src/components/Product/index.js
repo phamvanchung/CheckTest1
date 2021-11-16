@@ -98,9 +98,7 @@ function Product() {
               </div>
             </div>
           </li>
-        </ul>
 
-        <ul className="product_content-list">
           <li className="product_content-item">
             <img src={img24} className="product_content-img" />
             <h6 className="product_content-title">
@@ -166,9 +164,7 @@ function Product() {
               </div>
             </div>
           </li>
-        </ul>
 
-        <ul className="product_content-list">
           <li className="product_content-item">
             <img src={img9} className="product_content-img" />
             <h6 className="product_content-title">
@@ -234,9 +230,7 @@ function Product() {
               </div>
             </div>
           </li>
-        </ul>
 
-        <ul className="product_content-list">
           <li className="product_content-item">
             <img src={img14} className="product_content-img" />
             <h6 className="product_content-title">
@@ -302,9 +296,7 @@ function Product() {
               </div>
             </div>
           </li>
-        </ul>
 
-        <ul className="product_content-list">
           <li className="product_content-item">
             <img src={img19} className="product_content-img" />
             <h6 className="product_content-title">

@@ -1,7 +1,7 @@
 @import "../../assets/style-gl.scss";
 
 .footer {
-  height: 400px;
+  height: 350px;
   border-top: 1px solid rgba(255, 225, 225, 0.4);
   .footer_up {
     display: flex;
@@ -13,9 +13,13 @@
         font-family: $font-eng;
         font-weight: $font-weight700;
       }
+      .wrap-desc {
+        height: 101px;
+        width: 234px;
+      }
       .footer_up-desc {
         font-family: $font-korea;
-        font-size: $font-size14;
+        font-size: $font-size12;
         line-height: 2.14;
         font-weight: $font-weight300;
       }
@@ -36,7 +40,7 @@
         }
         .footer_up-desc {
           font-family: $font-korea;
-          font-size: $font-size14;
+          font-size: $font-size12;
           line-height: 2.14;
           font-weight: $font-weight300;
         }
@@ -53,7 +57,7 @@
       width: 60%;
       color: $text-blank;
       font-family: $font-korea;
-      font-size: $font-size14;
+      font-size: $font-size12;
       font-weight: $font-weight300;
       line-height: 1.71;
       margin-top: 20px;

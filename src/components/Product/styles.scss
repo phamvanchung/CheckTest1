@@ -35,6 +35,10 @@
       top: 33%;
       left: 30px;
       display: flex;
+      @include tablet-mobile {
+        // width: 38%;
+        // left: 25%;
+      }
       @include mobile-small {
         top: 30%;
         left: -25px;
@@ -44,7 +48,7 @@
         list-style: none;
         position: relative;
         @include tablet-mobile {
-          margin: 0 auto;
+          margin: 0 50px;
         }
         .banner_product-img {
           width: 400px;
@@ -54,6 +58,7 @@
             width: 100%;
             height: 200px;
             margin-top: 50px;
+            text-align: center;
           }
         }
 
@@ -83,9 +88,9 @@
           border-radius: 3px;
           @include tablet-mobile {
             bottom: 0px;
-            left: 40px;
+            left: 30px;
             width: 70%;
-            height: 70px;
+            height: 40px;
           }
           .banner_product-desc {
             font-size: $font-size15;
@@ -93,13 +98,20 @@
             margin: 0 20px;
             @include tablet-mobile {
               font-size: $font-size12;
-              margin: 0 5px;
+              margin: 0 2px;
+              height: 20px;
+              overflow: hidden;
             }
           }
           .banner_product-text-img {
             width: 65px;
             height: 65px;
             margin-right: 20px;
+            @include tablet-mobile {
+              width: 30px;
+              height: 30px;
+              // margin-right: 20px;
+            }
           }
         }
       }

@@ -12,20 +12,22 @@ function Footer() {
         <div className="footer_up">
           <div className="footer_up-left">
             <div className="footer_up-title">what happened</div>
-            <div className="footer_up-desc">
-              [공지] 개인 정보 처리 방침 변경 사전 안내
-            </div>
-            <div className="footer_up-desc">
-              [공지] 29CM 강남 스토어 영업 종료
-            </div>
-            <div className="footer_up-desc">
-              [공지] 개인 정보 처리 방침 변경 사전 안내
-            </div>
-            <div className="footer_up-desc">
-              [공지] iOS 10 이하 버전 지원 중단 안내
-            </div>
-            <div className="footer_up-desc">
-              [공지] 개인 정보 처리 방침 변경 사전 안내
+            <div className="wrap-desc">
+              <div className="footer_up-desc">
+                [공지] 개인 정보 처리 방침 변경 사전 안내
+              </div>
+              <div className="footer_up-desc">
+                [공지] 29CM 강남 스토어 영업 종료
+              </div>
+              <div className="footer_up-desc">
+                [공지] 개인 정보 처리 방침 변경 사전 안내
+              </div>
+              <div className="footer_up-desc">
+                [공지] iOS 10 이하 버전 지원 중단 안내
+              </div>
+              <div className="footer_up-desc">
+                [공지] 개인 정보 처리 방침 변경 사전 안내
+              </div>
             </div>
           </div>
 
